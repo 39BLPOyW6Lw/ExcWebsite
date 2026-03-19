@@ -312,6 +312,9 @@ header {
       -o-transition: all .5s;
       transition: all .5s;
       color: #232323; }
+      #portfolio figure a {   /**/
+        color: inherit;
+        }
       #portfolio figure figcaption:hover {
         background-color: rgba(0, 255, 108, 0.6);
         opacity: 1; }
@@ -322,12 +325,16 @@ header {
         margin-bottom: 3rem; }
       #portfolio figure figcaption a {
         font-size: 2rem;
-        color: #6b6b6b; /*color: #f3f3f3; */
+        color: #6b6b6b; 
         -webkit-transition: all 0.3s;
         -o-transition: all 0.3s;
         transition: all 0.3s; }
         #portfolio figure figcaption a:hover {
           color: #232323; }
+
+.note p {
+  text-align: center;
+}
 
 #contact {
   padding: 5rem 0;
